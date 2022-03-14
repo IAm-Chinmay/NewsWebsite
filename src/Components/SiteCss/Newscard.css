@@ -12,3 +12,12 @@
 .incard img{
     border-radius: 2vh;
 }
+
+.btn-dark-my{
+    color: black;
+    background-color: #f8f9fa;
+}
+
+.btn-dark-my:hover{
+    background-color: #dfdddd;
+}

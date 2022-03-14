@@ -4,16 +4,16 @@ export default class Spinner extends Component {
     render() {
         return (
             <div>
-                <div class="d-flex justify-content-center ">
+                <div className="d-flex justify-content-center ">
 
-                    <div class="spinner-grow spinner-grow-sm mx-2" role="status">
-                        <span class="visually-hidden">Loading...</span>
+                    <div className="spinner-grow spinner-grow-sm mx-2" role="status">
+                        <span className="visually-hidden">Loading...</span>
                     </div>
-                    <div class="spinner-grow spinner-grow-sm mx-2" role="status">
-                        <span class="visually-hidden">Loading...</span>
+                    <div className="spinner-grow spinner-grow-sm mx-2" role="status">
+                        <span className="visually-hidden">Loading...</span>
                     </div>
-                    <div class="spinner-grow spinner-grow-sm mx-2" role="status">
-                        <span class="visually-hidden">Loading...</span>
+                    <div className="spinner-grow spinner-grow-sm mx-2" role="status">
+                        <span className="visually-hidden">Loading...</span>
                     </div>
                 </div>
             </div>

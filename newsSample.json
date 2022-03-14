@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+    {
+    "source": {
+    "id": "cnn",
+    "name": "CNN"
+    },
+    "author": "Gabe Cohen and Dakin Andone, CNN",
+    "title": "Trucker convoy laps Washington, DC, beltway to protest Covid-19 measures - CNN",
+    "description": "A convoy of vehicles lapped the Washington, DC, beltway Sunday morning to demand an end to Covid-19 mandates and restrictions.",
+    "url": "https://www.cnn.com/2022/03/06/us/trucker-convoy-protest-washington-dc-sunday/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220306152814-04-trucker-convoy-030622-super-tease.jpg",
+    "publishedAt": "2022-03-07T14:08:00Z",
+    "content": "(CNN)A convoy of vehicles lapped the Washington, DC, beltway Sunday morning to demand an end to Covid-19 mandates and restrictions.\r\nThe protests come at a time when many pandemic-related mandates an… [+6302 chars]"
+    },
+    {
+    "source": {
+    "id": "independent",
+    "name": "Independent"
+    },
+    "author": "Arpan Rai",
+    "title": "One ‘intruder’ arrested at Joint Base Andrews in security breach moments after Vice President’s departure - The Independent",
+    "description": "Two individuals fled the vehicle, and one them is still at large, say officials",
+    "url": "https://www.independent.co.uk/news/world/americas/us-politics/kamala-harris-joint-base-andrews-lockdown-b2030191.html",
+    "urlToImage": "https://static.independent.co.uk/2020/09/07/21/AFP_1X21H2.jpg?quality=75&width=1200&auto=webp",
+    "publishedAt": "2022-03-07T13:54:28Z",
+    "content": "Officials at the Joint Base Andrews arrested one of the two armed intruders who caused a security breach at the military base on Sunday shortly after Vice President Kamala Harris and several cabinet … [+1876 chars]"
+    },
+    {
+    "source": {
+    "id": "reuters",
+    "name": "Reuters"
+    },
+    "author": null,
+    "title": "Ukraine decries 'immoral' stunt after Moscow says it will let civilians flee — to Russia - Reuters.com",
+    "description": "Moscow said on Monday it would provide corridors for residents of Ukraine's two main cities to flee to Russia and Belarus, a move Ukraine called an immoral stunt to exploit the suffering of civilians under Russian bombardment.",
+    "url": "https://www.reuters.com/markets/asia/top-wrap-1-ukrainians-trapped-besieged-city-fighting-blocks-evacuation-efforts-2022-03-07/",
+    "urlToImage": "https://www.reuters.com/resizer/Q8n5OqjO2IkJNeHcZIEkQGI-YBs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/CZ3STJBQJBMHVP6UPVEFXBWZMQ.jpg",
+    "publishedAt": "2022-03-07T13:30:00Z",
+    "content": "LVIV/IRPIN, Ukraine, March 7 (Reuters) - Moscow said on Monday it would provide corridors for residents of Ukraine's two main cities to flee to Russia and Belarus, a move Ukraine called an immoral st… [+6611 chars]"
+    },
+    {
+    "source": {
+    "id": "associated-press",
+    "name": "Associated Press"
+    },
+    "author": null,
+    "title": "US markets set for lower open; oil prices continue to surge - The Associated Press - en Español",
+    "description": "NEW YORK (AP) — Stocks are opening lower on Wall Street but keeping their losses in check as an early spike in crude oil prices abated. The price of U.S. crude was up 1.8% to $117 a barrel Monday, but off its earlier high of $130 a barrel as talk escalated ov…",
+    "url": "https://apnews.com/article/russia-ukraine-vladimir-putin-business-nancy-pelosi-economy-91fec47e5de9fa734fd0de9c402c2b99",
+    "urlToImage": "https://storage.googleapis.com/afs-prod/media/073ac921e9f54326903ca865b0144028/3000.jpeg",
+    "publishedAt": "2022-03-07T13:23:32Z",
+    "content": "NEW YORK (AP) Stocks are opening lower on Wall Street but keeping their losses in check as an early spike in crude oil prices abated. The price of U.S. crude was up 1.8% to $117 a barrel Monday, but … [+5524 chars]"
+    }
+]
+}

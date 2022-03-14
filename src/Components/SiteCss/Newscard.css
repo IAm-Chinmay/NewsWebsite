@@ -1,0 +1,14 @@
+.line{
+    display: flex;  
+    
+}
+
+.incard{
+    background-color: #dee1e1;
+    border-radius: 2vh;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.incard img{
+    border-radius: 2vh;
+}

@@ -17,11 +17,11 @@ export default class Navbar extends Component {
                 <span className="visually-hidden">Toggle Dropdown</span>
               </button>
               <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="/business">business</Link></li>
-                <li><Link className="dropdown-item" to="#">entertainment</Link></li>
-                <li><Link className="dropdown-item" to="#">health</Link></li>
-                <li><Link className="dropdown-item" to="#">science</Link></li>
-                <li><Link className="dropdown-item" to="#">sports</Link></li>
+                <li><Link className="dropdown-item" to="/business">Business</Link></li>
+                <li><Link className="dropdown-item" to="/entertainment">Entertainment</Link></li>
+                <li><Link className="dropdown-item" to="/health">Health</Link></li>
+                <li><Link className="dropdown-item" to="/science">Science</Link></li>
+                <li><Link className="dropdown-item" to="/sports">Sports</Link></li>
               </ul>
             </div>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">

@@ -13,19 +13,19 @@ export default class Sliding extends Component {
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="3000">
               <img src={img1} className="d-block w-100" alt="IMG1" />
-              <div class="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-none d-md-block">
                 <h5>NEWS IN YOUR POCKET.</h5>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="3000">
               <img src={img2} className="d-block w-100" alt="IMG2" />
-              <div class="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-none d-md-block">
                 <h5> NEWS ANYTIME ANYWHERE</h5>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="3000">
               <img src={img3} className="d-block w-100" alt="IMG3" />
-              <div class="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-none d-md-block">
                 <h5> LATEST NEWS ONLY HERE</h5>
               </div>
             </div>

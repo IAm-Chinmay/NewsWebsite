@@ -46,8 +46,8 @@ export default class NewsItem extends Component {
 
   nextPageEvent = async () => {
     console.log("Working");
-    if (!(this.state.page + 1 > Math.ceil(this.state.totalResults / 20))) {
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=c2e626cb1b58458bbb478e20d8610b21&page=${this.state.page + 1} & pageSize= ${this.props.pageSize}`;
+    if (!(this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSize))) {
+      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=c2e626cb1b58458bbb478e20d8610b21&page=${this.state.page + 1}&pageSize= ${this.props.pageSize}`;
       this.setState({loading:true});
       let data = await fetch(url);
       let parsedDate = await data.json()
@@ -59,7 +59,7 @@ export default class NewsItem extends Component {
 
   prvPageEvent = async () => {
 
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=c2e626cb1b58458bbb478e20d8610b21&page=${this.state.page - 1} & pageSize= ${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=c2e626cb1b58458bbb478e20d8610b21&page=${this.state.page - 1}&pageSize= ${this.props.pageSize}`;
     this.setState({loading:true});
     let data = await fetch(url);
     let parsedDate = await data.json()
@@ -74,7 +74,7 @@ export default class NewsItem extends Component {
         <div className='row'>
           {!this.state.loading && this.state.articles.map((element) => {
             return <div className='col-md-3' key={element.url}>
-              <Newscard title={element.title.slice(0, 50)} description={element.description ? element.description.slice(0, 50) : ""} imglink={element.urlToImage} url={element.url} />
+              <Newscard title={element.title.slice(0, 50)} description={element.description ? element.description.slice(0, 50) : ""} imglink={element.urlToImage} url={element.url} author={element.author ? element.author.slice(0,20) : "Unknown"} date={element.publishedAt} source={element.source.name.slice(0,28)} />
             </div>
           })}
         </div>
